@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".PostJournalActivity"
+    android:background="@drawable/gradiant_bg">
+
+
+
+<ImageView
+    android:id="@+id/postJournalImageView"
+    android:layout_width="400dp"
+    android:layout_height="241dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.051"
+    android:src="@drawable/imageimage"
+    android:contentDescription="@string/todo" />
+
+<TextView
+    android:id="@+id/postJournalUserName"
+    android:layout_width="60dp"
+    android:layout_height="24dp"
+    android:layout_marginTop="40dp"
+    android:text="@string/vikash"
+    android:textSize="20dp"
+    android:textColor="@color/white"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.122"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/postJournalCameraButton" />
+
+<TextView
+    android:id="@+id/postJournalDate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/today"
+    android:textColor="@color/white"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.127"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/postJournalUserName" />
+
+<ImageView
+    android:id="@+id/postJournalCameraButton"
+    android:layout_width="132dp"
+    android:layout_height="75dp"
+    android:layout_marginTop="60dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/postJournalImageView"
+    app:srcCompat="@android:drawable/ic_menu_camera" />
+
+<EditText
+    android:id="@+id/postJournalTittle"
+    android:layout_width="match_parent"
+    android:hint="@string/title"
+    android:layout_height="38dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginLeft="8dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:background="@drawable/input_outline"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.454"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/postJournalImageView" />
+
+<EditText
+    android:id="@+id/writeJournalEditText"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_marginTop="76dp"
+    android:ems="10"
+    android:layout_marginLeft="8dp"
+
+    android:hint="@string/write_journal"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.454"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/postJournalImageView"
+    tools:ignore="RtlSymmetry,TextViewEdits"
+    android:inputType="textMultiLine"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+    android:background="@drawable/input_outline"/>
+
+<Button
+    android:id="@+id/postJournalSaveButton"
+    android:layout_width="match_parent"
+    android:layout_height="53dp"
+    android:layout_marginBottom="56dp"
+    android:text="@string/save"
+    android:textStyle="bold"
+    android:background="@android:color/transparent"
+    android:textColor="@android:color/holo_red_dark"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.516"
+    app:layout_constraintStart_toStartOf="parent" />
+
+<ProgressBar
+    android:id="@+id/postJournalProgressbar"
+    style="?android:attr/progressBarStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="152dp"
+    app:layout_constraintBottom_toTopOf="@+id/postJournalSaveButton"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
