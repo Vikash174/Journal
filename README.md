@@ -10,9 +10,7 @@ Clone the project and run to get started.
 
 
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![]((https://user-images.githubusercontent.com/71267021/109410036-5d896f80-79bd-11eb-8f8d-f611ce618a17.png))  |  ![]((https://user-images.githubusercontent.com/71267021/109410304-890d5980-79bf-11eb-97f1-39833e65e333.jpg))
+
 
 ![](https://user-images.githubusercontent.com/71267021/109410036-5d896f80-79bd-11eb-8f8d-f611ce618a17.png)
 ![](https://user-images.githubusercontent.com/71267021/109410304-890d5980-79bf-11eb-97f1-39833e65e333.jpg)
