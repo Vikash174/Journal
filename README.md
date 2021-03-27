@@ -37,6 +37,7 @@ Clone the project and run to get started.
 
 * [Glide](https://github.com/bumptech/glide) - Image Loading
 
+* [MVVM Architecture]
 
 
 
