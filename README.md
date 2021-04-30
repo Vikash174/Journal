@@ -1,6 +1,10 @@
 # Journal
- This app allow users to keep a journal so that they can write their thoughts. It more
-like self reflection app. Build using Firebase.
+• sanctuary for your mind and soul, Journal will help to increase your positive energy,
+be more grateful and a calmer mind by building healthy thinking through journaling.
+• Features
+* User AUTHENTICATION via Email and password.
+* Add image and thought.
+* Share with friends
 
 ## Getting Started
 
