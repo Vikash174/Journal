@@ -1,6 +1,8 @@
 # Journal
 • sanctuary for your mind and soul, Journal will help to increase your positive energy,
 be more grateful and a calmer mind by building healthy thinking through journaling.
+
+
 • Features
 * User AUTHENTICATION via Email and password.
 * Add image and thought.
